@@ -212,7 +212,7 @@ def tip_pop():
             res = conn.getresponse()
             data = res.read()
             data = json.loads(data)
-            pop = data["newslist"][0]["pcpn"]]
+            pop = data["newslist"][0]["pcpn"]
             return int(float(pop)*100)
         except:
             return ("天气预报API调取错误，请检查API是否正确申请或是否填写正确"),""
