@@ -1,4 +1,4 @@
-name: time-push
+name: weixing
 on:
   workflow_dispatch:
   schedule: 
